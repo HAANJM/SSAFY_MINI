@@ -5,33 +5,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>회원가입 / 로그인</title>
+<title>SSAFY MINI</title>
 </head>
 <body>
 
-	<h3>회원가입</h3>
+	<h3>미니 프로젝트</h3>
 	<hr>
-	<form method="post" action="main">
-		<input type="hidden" name="act" value="regist">
-		아이디 : <input type="text" name="id"> <br>
-		비밀번호 : <input type="password" name="password">
-		이름 : <input type="text" name="name"> <br>
-		닉네임 : <input type="text" name="nickName"> <br>
-		전화번호 : <input type="text" name="phone"> <br>
-		이메일 : <input type="text" name="email"> <br>
-		<input type="submit">
-	</form>
+	<a href="register.jsp">회원가입</a>
 	<hr>
-	<h3>로그인</h3>
-	<hr>
-	<form method="post" action="main">
-		<input type="hidden" name="act" value="login">
-		아이디 : <input type="text" name="id"> <br>
-		비밀번호 : <input type="password" name="password">
-		<input type="submit">
-	</form>
-	
-	<h5>암호 : ${password}</h5>
+	<a href="login.jsp">로그인</a>
 
 </body>
 </html>
