@@ -15,6 +15,10 @@
 		<input type="hidden" name="act" value="regist">
 		아이디 : <input type="text" name="id"> <br>
 		비밀번호 : <input type="password" name="password">
+		이름 : <input type="text" name="name"> <br>
+		닉네임 : <input type="text" name="nickName"> <br>
+		전화번호 : <input type="text" name="phone"> <br>
+		이메일 : <input type="text" name="email"> <br>
 		<input type="submit">
 	</form>
 	<hr>
